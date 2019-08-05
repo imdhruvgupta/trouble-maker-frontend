@@ -70,7 +70,6 @@ export default Component.extend({
       })
 
       newTag.set('user', this.get('currentUser.user'))
-      console.log(newTag.user)
       newTag.save()
       .then(onSuccess)
     }
